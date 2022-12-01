@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include juzapp *.css
+recursive-include juzapp *.csv
+recursive-include juzapp *.html
+recursive-include juzapp *.ico
+recursive-include juzapp *.js
+recursive-include juzapp *.json
+recursive-include juzapp *.md
+recursive-include juzapp *.png
+recursive-include juzapp *.py
+recursive-include juzapp *.svg
+recursive-include juzapp *.txt
+recursive-exclude juzapp *.pyc
